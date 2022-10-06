@@ -1,0 +1,2 @@
+module salarycalc {
+}
