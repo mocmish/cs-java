@@ -7,8 +7,8 @@ public class app {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					database db = new database("jdbc:mysql://localhost/salarycalc", "root", "");
-					mainLogin frame = new mainLogin(db);
+					Database db = new Database("jdbc:mysql://localhost/salarycalc", "root", "");
+					MainLogin frame = new MainLogin(db);
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
